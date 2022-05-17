@@ -1,0 +1,52 @@
+'''
+list=(2, 5.7, 'janyl', ['jika'], True, False,)
+print(list)
+'''
+'''
+name=['Altynai', 'Erkinai', 'janyl', 'Aigerim', 'Nurdos',]
+b=' '
+print(b.join(name))
+'''
+'''
+a=['sun']
+b=['moon']
+b.extend(a)
+print(b)
+'''
+'''
+name=['Jack', 'jimmy', 'jakson', 'Jack', 'jhon']
+b=name.count('Jack')
+print(b)
+
+'''
+'''
+name=['Jack', 'Oskar', 'jimmy', 'jakson', 'Jack', 'jhon']
+name.pop(1)
+print(name)
+'''
+'''
+a=input('your name')
+b=input('your year of birth')
+c=input('your favorite Programming language')
+d=[]
+d.append(a)
+d.append(b)
+d.append(c)
+print(d)
+
+'''
+'''
+list=["int", "str","bool", "if", "else", "elif", "loop"]
+list.pop(6)
+print(list)
+'''
+'''
+list=["int", "str","bool", "if", "else", "elif", "loop"]
+print(list[1:3])
+'''
+list=[3, 4, 5, 8, 7, 6, 2, 1, ]
+index=list.index(5)
+list[index]=4
+print(list)
+print(list[::-1])
+

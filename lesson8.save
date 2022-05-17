@@ -1,0 +1,13 @@
+'
+ls = [12, 35454, 6566, 767, 7778, 8, 77, 7, 754545, 454, 54, 33, 2, 232, 12, 45, 99, 765]
+print(ls.index(min(ls))) 
+'''
+x=['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good','good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']
+f = x.count('good')
+if f <=2:
+	print('Опубликовать!')
+elif f>2:
+	print('Я чувствую серию')
+else:
+	print('fail')
+

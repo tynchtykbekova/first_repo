@@ -1,0 +1,47 @@
+'''
+dates_of_birth = {3,65,5,7,5,6,9,0,8,4,32}
+dates_of_birth.discard(7)
+print(dates_of_birth)
+'''
+'''
+set1={'dog','cat', 'mause', 'sheep'}
+set2={'cow','horse', 'donkey', 'cat', 'dog'}
+print(set1.intersection(set2))
+
+print(set1.difference(set2))
+'''
+'''
+set={'face', 'eyes', 'hair', 'nose', 'tongue'}
+#set.add('arm')
+#print(set)
+set.pop()
+print(set)
+'''
+'''
+menu={'plov':150,'lagman':120, 'borsh':145 , ' manty':150}
+#menu.add('besh_barmak:130')
+#print(menu)
+menu.update(lagman=130)
+print(menu)
+
+print(menu.pop('borsh'))
+'''
+'''
+dikt={'drinks':['coca-cola', 'sprite', 'fanta']}
+print(dikt.get('drinks'))
+
+'''
+'''
+set1={'add', 'update', 'remove', 'clear', 'pop'}
+set2={'clear', 'get', 'keys', 'items', 'update'}
+print(set1.intersection(set2))
+
+'''
+'''
+south_american_countries = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Ecuador', 'Guyana', 'Paraguay', 'Peru', 'Suriname', 'Suriname', 'Uruguay', 'Venezuela']
+set=set(south_american_countries)
+print(set)
+print(list(set))
+'''
+suitcase = ['soks', 'cap', 'hate', 'dresses', 'skirte']
+

@@ -1,0 +1,24 @@
+
+
+
+
+ '''
+list=(2, 5.7, 'janyl', ['jika'], True, False,)
+print(list)
+'''
+'''
+name=['Altynai', 'Erkinai', 'janyl', 'Aigerim', 'Nurdos',]
+b=' '
+print(b.join(name))
+'''
+'''
+a=['sun']
+b=['moon']
+b.extend(a)
+print(b)
+'''
+name=['Jack', 'jimmy', 'jakson', 'jhon']
+b='jake'
+print(name.count(b))
+
+

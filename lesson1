@@ -1,0 +1,21 @@
+ct = input('+, -, *, /')
+print(act)
+a=int(input('vyberite chislo'))
+b=int(input('vyberite chislo'))
+if act == '+':
+	print(a+b)
+
+elif act=='-':
+	print(a-b)
+
+
+elif act=='/':
+	print(a/b)
+
+
+elif act=='*':
+	print(a*b)
+else:
+	print('u vas problemy')
+
+

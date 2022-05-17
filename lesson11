@@ -1,0 +1,38 @@
+# def basin():
+#     print((lambda a, b, c :f'обьем бассейна{a*b*c}')(6,4,12))
+# basin()
+# def chisla(number):
+   
+#     if number%2!=0:
+#         print(number)
+#     chisla(number+1)
+        
+# chisla(23)
+
+#print((lambda a: f'до нового года осталось: {365-a} дней')(136))
+# s = {24, 4, 31, 23}
+# def main(h):
+#     print(h)
+#     if len(h) == 0:
+#         return h
+#     else:
+#         h.pop()
+#         main(s)
+# main(s)
+import random as r
+gen_list=[]
+def random(f):
+    for i in range (100):
+        random1=r.randint(10,50)
+        gen_list.append(random1)
+    print(gen_list)
+    def wrapper(arg):
+        f(arg)
+    return wrapper
+
+@random
+def delete(arg):
+    arg=set(arg)
+    print(list(arg))
+
+delete(gen_list)

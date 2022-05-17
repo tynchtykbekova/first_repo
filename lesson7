@@ -1,0 +1,96 @@
+
+
+'''
+a = [1,2,2,1,6,4,7,8,6,5]
+for i in range(len(a)-1):
+	n=[a[i]]
+	i+=1
+	m=[a[i]]
+	if n<m:
+		n=m
+		print(m,end='')
+'''
+
+'''
+gen_list=[]
+for i in range (0,301):
+	if i%2==0:
+		gen_list.append(i)
+	if i==254:
+		break
+print(gen_list)
+'''
+'''
+a=int(input('chislo dlay perimetra'))
+b=int(input('chislo dlay ploshadi'))
+if a>0 :
+	print(a*4)
+	print(b*b)
+'''
+'''
+a=input('login')
+b=input('parol')
+if a=='scarlet':
+	print('true')
+else:
+	print('folse')
+if b==91770:
+	 print('true')
+else:
+        print('folse')
+'''
+'''
+marka = input('marka')
+if marka == 'toyota' or marka == 'lexus':
+	print('pokupau')
+else:
+	print('ona mne ne nravitsya')
+god = input('god vypuska')
+if god==2004:
+	print('pokupau')
+else:
+	print('ona mne ne nravitsya')
+v=input('probeg')
+if v==150000 or v==200000:
+	print('pokupau')	
+else:
+	print('ona mne ne nravitsya')
+d=input('svet')
+if d=='belyi' or d=='seryi':
+	  print('pokupau')
+else:
+        print('ona mne ne nravitsya')
+
+c=input('rul')
+if c=='levyi':
+	print('pokupau')
+else:
+        print('ona mne ne nravitsya')
+l=input('sena')
+if l==8000 or l==10000:
+        print('pokupau')
+else:
+        print('ona mne ne nravitsya')
+
+'''
+'''
+a=input('janr')
+if a=='ujasy':
+	print('sena:500, vremya:21:30')
+if a=='detektiv':
+	print('sena:300, vremya:22:00')
+if a=='komedii':
+	print('sena:500, vremya:21:00')
+'''
+a=input('raion')
+#b=input('sena')	
+c=input('material')
+f=input('uchastok')	
+if a=='chon aryk' or a=='baitik' or a=='ortosai':
+	pass
+elif c=='kirpich' and f==4:
+	print('50000')
+elif c=='peskbolok' and f=5:
+	print('45000')
+
+	

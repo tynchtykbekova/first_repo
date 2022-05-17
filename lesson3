@@ -1,0 +1,44 @@
+'''
+a='BEE'
+b='flower'
+c="".join('BEE flower')
+print(c)
+'''
+'''
+a=input('')
+b='GitHub'
+print(b.split(a))
+'''
+'''
+a='Ботнет IPStorm ,в который ранее входили лишь Windows-машины,увеличился до 13500 зараженных систем'                    
+b='е'
+print(a.replace(b,"3"))
+'''
+'''
+a=input('name')
+b=input('movie')
+print(f"hello {a} !I also  watch this {b}.It's really nice")
+'''
+'''
+a='Google создаст специальную команду для поиска багов в особо важных приложениях'
+b=a.count(' ') 
+print(f'v etom predlogenii {b+1} slov')
+'''
+a='Самые важные собЫтия в миРе инфосека за сентябрь'
+
+'''
+a='хакерыслили в сеть данные пакистанской энергетической кампании k-Electrik'
+print(a.title())
+'''
+'''
+print('|'.join(a))
+'''
+a=input()
+b=input()
+print(type(a))
+a=int(a)
+print(type(a))
+d=int(b)
+resalt=a+d
+print(resalt)
+

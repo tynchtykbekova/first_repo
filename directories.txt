@@ -1,0 +1,6 @@
+
+ cdrom     lesson2        lesson5        lesson9     Загрузки        Шаблоны
+ Desktop   lesson2.save   lesson6        snap        Изображения
+ Disk1     lesson3        lesson7        var         Музыка
+ lesso2    lesson4        lesson8        Видео       Общедоступные
+ lesson1   lesson4.save   lesson8.save   Документы  'Робочий стол'

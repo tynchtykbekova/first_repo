@@ -1,0 +1,116 @@
+
+#a = int(input('число'))
+'''
+if 2**3 > 3**2:
+	print(2**3, 'bolshe chem', 3**2)
+elif 2**3 < 3**2:
+	print(2**3, 'menshe chem',3**2)
+else :
+	print('oni ravny')
+'''
+'''
+a=int(input('chislo'))
+
+if a > 0 and a < 21:
+	print('razreshennoe chislo')
+elif a >=  57 and a<=  100:
+	print('razreshonnoe chislo')
+else:
+	print('nerazreshennoe chislo')
+'''
+'''
+a=int(input('chislo'))
+
+if a % 2 == 0:
+	print('chetnoe chislo')
+else :
+	print('nechetnoe chislo')
+if a % 3 ==0:
+	print('bez ostatka') 
+else :
+	print('s ostatokom')
+if a**2>=1000:
+	print('Da')
+else:
+	print('Net')
+'''
+'''
+a=input()
+if a==a:
+	print(a)
+'''
+'''
+a=10//5
+b=10/5
+if a==b:
+	print(a+b)
+else:
+	print('ne ravny')
+'''
+'''
+a=int(input('chislo'))
+if a==a:
+	print(a-a-1000)
+'''
+'''
+a=10
+b=5
+
+if a>=0 and b>=0:
+	print('polojitelnae')
+'''
+'''
+if a>b:
+	print(a+2)
+else:
+	print(b+2)
+
+'''
+'''
+a=int(input('chislo'))
+if a>0:
+	print('polojitelnoe chislo')
+else:
+	print('otrisatelnoe chislo')
+'''
+'''
+
+a=int(input('god rogdenia'))
+
+if a>18:
+	print('sovershennoletnyi')
+elif a<4:
+	print('rebenok')
+else:
+	print('nesovershennoletnyi')
+'''
+'''
+a=45
+b=6
+if a/b:
+	print('delitsay')
+else:
+	print('ne delitsya')
+'''
+'''
+a=int(input('god'))
+if a==2022:
+	print('tekushyi god')
+elif a>2022:
+	print('budushyi god')
+else:
+	print('god proshel')
+'''
+
+
+
+a=int(input('god rojdenia'))
+year=2022
+age=year-a
+if age>18:
+	print('sovershenoletnyi')
+elif age<4:
+	print('nesoversholetnyi')
+else:
+	print('rebenok')
+

@@ -1,0 +1,64 @@
+languages = ['go', 'java', 'php', 'python', 'javascript', 'ruby']
+#a = input("язык программирования: ")
+#for i in languages:
+     #   if a == i:
+      #          print('this languages is in list')
+'''
+a = input("perebrat ayazyk:")
+for i in languages:
+for i in range(len(languages)):
+	print(i)	
+	if i==a:
+		break
+'''
+#a=7
+#for i in range(5):
+#	print(a*a)
+
+#for i in range(len(languages)):
+#	print(i,languages[i])
+'''
+for i in range(11):
+	print(i, end='')
+for i in range(10, 1, -1):
+	print(i, end='')
+'''
+names = ('Максат','Лязат','Данияр','Айбек','Атай','Салават','Адинай','Жоомарт','Алымбек','Эрмек','Дастан','Бекмамат','Аслан',)
+
+#for i in range(len(names)):
+#	if i % 2==0:
+#		print(names[i])
+#for i in range(len(names)):
+#	if i % 2 !=0:
+#		print(names[i])
+a=input()
+if len(a)==3:
+	print('Eto chislo trexznachnoe')
+else:
+	print('on ne trexznachnoe')
+a=int(a)
+if a>=0 and a%2==0:
+	print('eto chislo pologitelnoe b chetnoe')
+else:
+	print('eto chislo ne popologitelnoe b chetnoe')
+if a%31==0:
+	print('bez ostatka')
+else:
+	print('s ostatkom')
+if a>100: 
+	print('Bolshe 100')
+else:
+	print('menshe 100')
+if a%17==0:
+	print('bez ostatka')
+else:
+	print('s ostatkom')
+if a>150 and a == 13**2:
+        print('menshe  150',a)
+else:
+        print('bolshe 150', a)
+
+gen_list=[]
+for i in range (-100,101):
+	gen_list.append(i)
+print(gen_list)

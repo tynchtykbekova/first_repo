@@ -1,0 +1,26 @@
+
+#a = int(input('число'))
+'''
+if 2**3 > 3**2:
+	print(2**3, 'bolshe chem', 3**2)
+elif 2**3 < 3**2:
+	print(2**3, 'menshe chem',3**2)
+else :
+	print('oni ravny')
+'''
+'''
+a=int(input('chislo'))
+
+if a > 0 and a < 21:
+	print('razreshennoe chislo')
+elif a >=  57 and a<=  100:
+	print('razreshonnoe chislo')
+else:
+	print('nerazreshennoe chislo')
+'''''''''''''
+a=int(input('chislo'))
+
+if a % 2 == 0:
+	print('chetnoe chislo')
+else :
+	print('nechetnoe chislo')
